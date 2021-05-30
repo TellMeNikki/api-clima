@@ -1,0 +1,64 @@
+container{
+    margin: 0px auto;
+}
+#caja{
+    padding: 10px;
+    content: "";
+    background-image: url('../img/bg-stgo.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    opacity: 1;
+    z-index: -100;
+}
+#d-form{    
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.582); 
+}
+#txtCity{
+    outline: none;
+    border: 0;  
+    border-bottom: 2px solid;
+    text-align: center;
+    opacity: 0.4;
+    font-weight:600;
+    font-size: 2em; 
+    -webkit-appearance: none;
+}
+input[type=txtCity]::-webkit-search-cancel-button {
+    -webkit-appearance: searchfield-cancel-button;
+  }
+label{
+   font-style:inherit;
+   color: black;
+   font-weight:400;
+}
+#btn{
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    border-radius: 5px;
+    background: rgb(2, 2, 37);
+    color: rgb(138, 212, 247);   
+    z-index: 100; 
+}
+span{
+    color: rgb(216, 65, 65);
+    font-weight: bold;
+}
+img{
+    width: 40%;
+}
+ #ico{
+     width: 5%;
+     z-index: 100;
+     opacity: 1;
+ }
+#tempActual{
+     font-weight: bold;
+ }
+#sCity{
+    color:rgb(2, 0, 5);
+    font-weight: bold;
+    text-transform: uppercase;
+}
